@@ -1,0 +1,27 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "Boilerplate for React and Express",
+  "main": "\"server.js\"",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantspell/react-express.git"
+  },
+  "author": "Grant Spell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grantspell/react-express/issues"
+  },
+  "homepage": "https://github.com/grantspell/react-express#readme",
+  "dependencies": {
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
